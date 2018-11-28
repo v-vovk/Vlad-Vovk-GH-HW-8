@@ -1,3 +1,47 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+header .main-nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header .main-nav-list li {
+  margin-left: 42px;
+  box-sizing: border-box;
+}
+
+header .main-nav-list .item {
+  box-sizing: border-box;
+  color: #111111;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+header .main-nav-list .active {
+  padding: 15px 10px 10px;
+  border-bottom: 5px solid #e8bf5d;
+}
+/* end header style */
+
+/* lawyer photo slider style */
