@@ -45,3 +45,54 @@ header .main-nav-list .active {
 /* end header style */
 
 /* lawyer photo slider style */
+.lawyer-photo-slider {
+  min-height: 400px;
+  height: 840px;
+  background: #c3c3c3 url("../img/main-photo.png") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.lawyer-photo-slider .offer {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lawyer-photo-slider .offer .offer-info {
+  padding-left: 15px;
+  border-left: 2px solid #e8bf5d;
+}
+
+.lawyer-photo-slider .offer .main-heading {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.lawyer-photo-slider .offer .contact-me {
+  color: #111111;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 20px 45px;
+  background-color: #e8bf5d;
+  border-radius: 30px;
+}
+
+.lawyer-photo-slider .offer .work-position {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+/* end lawyer photo slider style */
