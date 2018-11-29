@@ -25,7 +25,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 195px;
   font-weight: 400;
-  z-index: -1;
 }
 
 .title {
@@ -147,6 +146,8 @@ header .main-nav-list .active {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .about-us .content-box {
@@ -195,3 +196,117 @@ header .main-nav-list .active {
   line-height: 31px;
   margin: 30px 0;
 }
+/* end about us style */
+
+/* practis area style */
+.practis-area {
+  padding: 100px 0 30px;
+  background-color: #111111;
+}
+
+.practis-area .heading:after {
+  content: '02';
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.practis-area .title {
+  color: #ffffff;
+}
+
+.practis-area .sub-title {
+  color: #b9b9b9;
+}
+
+.practis-area .content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.practis-area .content-box {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.practis-area .content-box .card {
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.practis-area .content-box .description {
+  max-width: 360px;
+  width: 100%;
+}
+
+.practis-area .content-box .title {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.practis-area .content-box .sub-title {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+/* end practis area style */
+
+/* meet our attorney style */
+.meet-our-attorney {
+  padding: 100px 0 50px;
+}
+
+.meet-our-attorney .heading:after {
+  content: '03';
+}
+
+.meet-our-attorney .content {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.meet-our-attorney .content .card {
+  max-width: 270px;
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.meet-our-attorney .content .card img {
+  display: block;
+}
+
+.meet-our-attorney .content .card figcaption {
+  display: block;
+  max-width: 270px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.meet-our-attorney .content .title {
+  color: #111111;
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.meet-our-attorney .content .sub-title {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* end meet our attorney style */
