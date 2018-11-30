@@ -310,3 +310,109 @@ flex-direction: row;
   font-weight: 400;
 }
 /* end meet our attorney style */
+
+/* our clients says style */
+.our-clients-says {
+  padding: 100px 0 30px;
+  background: #111111 url("../img/our-clients-say-bg.png") center center no-repeat;
+}
+
+.our-clients-says .heading {
+  margin-bottom: 70px;
+}
+
+.our-clients-says .heading:after {
+  content: '04';
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.our-clients-says .title {
+  color: #ffffff;
+}
+
+.our-clients-says .sub-title {
+  color: #b9b9b9;
+}
+
+.our-clients-says .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.our-clients-says .photos {
+  position: relative;
+  max-width: 370px;
+  width: 100%;
+  height: 305px;
+  margin: 20px 0 0 20px;
+  background-color: #e8bf5d;
+}
+
+.our-clients-says .photo-client {
+  position: absolute;
+  content: '';
+  top: -20px;
+  left:-20px;
+}
+
+.our-clients-says .blockquote-client {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.our-clients-says .blockquote-client .description {
+  position: relative;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 0;
+  margin: 0;
+}
+
+.our-clients-says .blockquote-client .description:before {
+  position: absolute;
+  top: -5px;
+  left: -40px;
+  content: '"';
+  width: 30px;
+  height: 25px;
+  opacity: 0.25;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.our-clients-says .blockquote-client .quote-heading {
+  margin-top: 30px;
+}
+
+.our-clients-says .blockquote-client .title {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.our-clients-says .blockquote-client .sub-title {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.our-clients-says .pagination-quote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 50px;
+  width: 100%;
+  margin: 20px auto;
+}
