@@ -515,3 +515,89 @@ flex-direction: row;
   cursor: pointer;
 }
 /* end recent publication style */
+
+/* faq style*/
+.faq {
+  padding: 100px 0 50px;
+  background: #111111;
+}
+
+.faq .heading {
+  margin-bottom: 70px;
+}
+
+.faq .heading:after {
+  content: '06';
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.faq .title {
+  color: #ffffff;
+}
+
+.faq .sub-title {
+  color: #b9b9b9;
+}
+
+.faq .content {
+  display: flex;
+  /*align-items: flex-start;*/
+  /*justify-content: space-between;*/
+  /*flex-wrap: wrap;*/
+  flex-direction: row;
+}
+
+.faq .faq-list {
+  max-width: 565px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+.faq .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 1px;
+  border-bottom: 3px solid #e8bf5d;
+}
+
+.faq .list-item .description {
+  margin: 0;
+  max-width: 540px;
+  width: 100%;
+}
+
+.faq .list-item .active {
+  color: #e8bf5d;
+}
+
+.faq .list-item-description {
+  margin: 0 0 50px 35px;
+  padding: 45px;
+  box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+  border-radius: 3px;
+  background-color: #e8bf5d;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq .text-info {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  margin: 0;
+}
+/* end faq style */
