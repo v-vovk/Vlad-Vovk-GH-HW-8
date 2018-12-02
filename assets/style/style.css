@@ -677,3 +677,39 @@ flex-direction: row;
   top: -20px;
   right:-20px;
 }
+/* end feel free to contact style */
+
+/* footer style */
+footer {
+  background-color: #111111;
+  padding: 35px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .copy {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #b5b5b5;
+  font-weight: 400;
+}
+
+footer .copy a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #b5b5b5;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+footer .social {
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* end footer style */
